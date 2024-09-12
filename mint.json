@@ -18,34 +18,29 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@lebrahq.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://www.lebrahq.com/auth/login"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Changelog and Updates",
+      "url": "changelog"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://docs.lebrahq.com"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://lebrahq.com/blog"
     }
   ],
   "navigation": [
@@ -58,32 +53,23 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Leadership Platform",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "leadership-platform/introduction"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Organization AI",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "leadership-platform/introduction"
       ]
     }
   ],
   "footerSocials": {
     "linkedin": "https://www.linkedin.com/company/lebrahq/"
+  },
+  "modeToggle": {
+    "default": "lightdark",
+    "isHidden": true
   }
 }
