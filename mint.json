@@ -25,6 +25,9 @@
     "name": "Dashboard",
     "url": "https://www.lebrahq.com/auth/login"
   },
+  "primaryTab": {
+    "name": "Lebra Guide"
+    },
   "tabs": [
     {
       "name": "Changelog and Updates",
