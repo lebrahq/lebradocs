@@ -1,8 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Lebra Documentation",
-  "logo": {
-  "logo": "https://www.lebrahq.com/images/logo.svg",
+  
+ "logo": {
+  "light": "https://www.lebrahq.com/images/logo.svg",
+  "dark": "https://www.lebrahq.com/images/logo.svg",
   "href": "https://yourcompany.com"
 },
   "favicon": "/favicon.svg",
