@@ -3,6 +3,8 @@
   "name": "Lebra Documentation",
   "logo": {
     "light": "https://www.lebrahq.com/images/logo.svg"
+    "dark": "https://www.lebrahq.com/images/logo.svg",
+  "href": "https://lebrahq.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
