@@ -66,6 +66,12 @@
       "pages": [
         "org-ai/introduction"
       ]
+    },
+    {
+      "group": "Stay Connected",
+      "pages": [
+        "changelog"
+      ]
     }
   ],
   "footerSocials": {
