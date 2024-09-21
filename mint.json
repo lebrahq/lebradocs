@@ -7,7 +7,9 @@
   "dark": "https://www.lebrahq.com/images/logo.svg",
   "href": "https://yourcompany.com"
 },
-  "favicon": "/favicon.svg",
+  {
+  "favicon": "https://www.lebrahq.com/images/logo.svg"
+}
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
