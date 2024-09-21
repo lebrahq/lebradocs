@@ -8,8 +8,9 @@
   "href": "https://yourcompany.com"
 },
 {
-  "favicon": "https://res.cloudinary.com/djpsi0ubb/image/upload/v1726880091/1200x600wa_qdcyll_c_crop_ar_1_1_hc9e8b.png"
+  "favicon": "https://res.cloudinary.com/djpsi0ubb/image/upload/1200x600wa_qdcyll_c_crop_ar_1_1_hc9e8b"
 }
+
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
