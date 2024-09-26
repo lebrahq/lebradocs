@@ -83,6 +83,6 @@
   },
   "modeToggle": {
     "default": "light",
-    "isHidden": true
+    "isHidden": "true"
   }
 }
