@@ -3,6 +3,39 @@ title: "Changelog and Updates"
 description: "Stay up-to-date on new Lebra features, improvements, and fixes."
 ---
 
+## October 2025
+
+### Lebra Ascend
+
+### Leadership Platform
+
+- Added support for assigning employees to multiple groups via CSV/Data Sync. Users can now be listed in multiple groups separated by `;;` (e.g., `Group1;;Group2;;Group3`), and the Groups tab will correctly reflect all group memberships.
+- Added a new bulk selection view in `Archived persons`, similar to the Organization view, allowing users to see all employees and archive multiple people at once, improving efficiency compared to archiving individually within Groups.
+
+## September 2025
+
+### Lebra Ascend
+
+- Added AI support to the Domains/Standards comment boxes in the Observation Modal, allowing users to “clean up” notes efficiently.
+- Added the ability for teachers to save their PDPs as drafts, similar to the draft/save functionality available for observation notes, allowing them to return and complete it later.
+- Improved the “View PDP” feature by adding a clear, clickable link, making it more intuitive for teachers to access and review their PDPs.
+- Added rating scales to summative evaluations, ensuring teachers can accurately assess whether they meet the criteria for Idaho’s career ladder advancement.
+- Updated terminology from “PDP” to “IPLP” (Individual Professional Learning Plan) to align with the official state-required goal-setting plan.
+- Fixed an issue where sequences (e.g., 1.a, 1.b, 1.c) were misaligned in Ascend, including within summative evaluations. Sequences now display correctly.
+- Added the ability to customize and delete roles within the platform. For example, roles like “Taecher” can now be corrected or removed as needed.
+
+### Leadership Platform
+
+- Fixed an issue where the number of people displayed in the macro view of a group didn’t match the actual count inside. For example, group totals now accurately reflect the number of members listed within.
+- Added a field on each individual’s contact page allowing users to input a preferred first name. This name now overrides the legal name throughout the system, ensuring personalized display across Lebra.
+- Added Google SSO on the iOS mobile app, enabling faster and more secure sign-ins.
+- Updated employee listings within Groups to be alphabetically sorted by last name, replacing the previous random order. This makes group management clearer and more intuitive.
+
+### Organization AI
+
+- Resolved an issue where users signing into Lebra via GoogleSSO were unable to access OrgAI, as no username/password existed for OrgAI login. Password resets previously redirected back to Google OAuth, preventing login. Users can now seamlessly access OrgAI using GoogleSSO.
+- Resolved an issue where users encountered the error message “Too many connections issued to the database” when uploading policies in OrgAI. File uploads now process reliably without triggering database connection errors.
+
 ## August 2025
 
 ### Leadership Platform
@@ -13,6 +46,8 @@ description: "Stay up-to-date on new Lebra features, improvements, and fixes."
 
 - Fixed an issue in the Observations section, under ‘General Observation Feedback,’ where the “Compose with Lebra” feature generated the same response regardless of the prompt entered. The function now correctly adapts to the user’s input, providing contextually relevant and concise responses both in Observations and under the Growth section.
 - Addressed an issue where content from notes wasn’t consistently pulled on the first attempt. The system now reliably uses the user’s input to generate accurate suggestions and feedback on the initial try.
+- Updated the Ascend Homepage to make it more user-friendly. Users can now see overall data alongside a list of their people, with key details displayed for each. Names in the list are clickable, allowing direct access to more detailed information without needing to use the search bar.
+- Fixed the hover behavior on teacher observations. The cursor now accurately reflects clickable items, reducing confusion. Users can still access full observation details via the three-dot menu, but the interface now better communicates which actions are available.
 
 ## July 2025
 
