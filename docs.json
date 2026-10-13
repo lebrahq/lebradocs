@@ -1,0 +1,97 @@
+{
+  "theme": "mint",
+  "name": "Lebra Documentation",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "https://res.cloudinary.com/djpsi0ubb/image/upload/v1727222974/Isotype_1_nayzyb.png",
+  "logo": {
+    "light": "https://www.lebrahq.com/images/logo.svg",
+    "dark": "https://www.lebrahq.com/images/logo.svg",
+    "href": "https://yourcompany.com"
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@lebrahq.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://www.lebrahq.com/auth/login"
+    }
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/lebrahq/"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://docs.lebrahq.com"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://lebrahq.com/blog"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Lebra Guide",
+        "groups": [
+          {
+            "group": "Lebra Ascend",
+            "pages": [
+              "lebra-ascend"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Leadership Platform",
+            "pages": [
+              "leadership-platform/introduction"
+            ]
+          },
+          {
+            "group": "Organization AI",
+            "pages": [
+              "org-ai/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog and Updates",
+        "groups": [
+          {
+            "group": "Stay Connected",
+            "pages": [
+              "changelog"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
