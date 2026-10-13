@@ -54,12 +54,6 @@
         "tab": "Lebra Guide",
         "groups": [
           {
-            "group": "Lebra Ascend",
-            "pages": [
-              "lebra-ascend"
-            ]
-          },
-          {
             "group": "Get Started",
             "pages": [
               "introduction",
@@ -77,6 +71,12 @@
             "group": "Organization AI",
             "pages": [
               "org-ai/introduction"
+            ]
+          },
+          {
+            "group": "Lebra Ascend",
+            "pages": [
+              "lebra-ascend"
             ]
           }
         ]
